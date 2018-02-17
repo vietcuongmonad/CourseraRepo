@@ -1,0 +1,60 @@
+function plier {
+	local res=1
+
+	for i in $@
+	do
+		let res=$res\*$i
+	done
+
+	echo $res
+}
+
+function isiteven {
+	local tg=$1%2
+
+	if [[ $tg -eq 0 ]] 
+	then
+		echo 1
+	else
+		echo 0
+	fi
+}
+
+function nevens {
+	local res=0
+
+	for i in $@
+	do
+		let res=$res+$(isiteven $i)
+	done
+
+	echo $res
+}
+
+function howodd {
+	echo "1-$(nevens $@)/$#" | bc -l
+}
+
+function fib {
+	arr=()	
+
+	if [[ $1 -eq 1 ]] 
+	then
+		arr+=(0)
+	elif [[ $1 -gt 1 ]]
+	then
+		arr+=(0 1)
+		local f1=0
+		local f2=1
+		
+		for i in {3..$1}
+		do
+			let local f3=$f2+$f1
+			arr+=($f3)
+			f1=$f2
+			f2=$f3
+		done
+	fi
+
+	echo ${arr[*]}
+}

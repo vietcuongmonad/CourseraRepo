@@ -1,0 +1,14 @@
+if [[ $1 =~ [^0-9] ]]
+then
+	exit
+fi
+
+let du=$1%2
+
+if [[ du -eq 0 ]]
+then
+	echo even
+elif [[ du -eq 1 ]]
+then 
+	echo odd
+fi

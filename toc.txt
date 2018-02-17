@@ -1,0 +1,502 @@
+git_graph
+cd
+cd workspace/mokera/
+ls
+tar -xvzf 20150701.tar.gz 
+cd 20150701.tar.gz 
+ls
+cd rethinkdb_dump_2015-07-01T02\:58\:43/
+ls
+cd ../..
+rethinkdb import --help
+ls
+cd mokera/
+ls
+rethinkdb import 20150701.tar.gz 
+re
+ls
+cd workspace/
+ls
+cd mokera/
+git clone git@git.mokera.io:data/dashboard.git
+ls
+cd dashboard/
+ls
+npm install
+npm
+npm install
+node .
+cat package.json 
+NODE_ENV=production babel-node --stage 0 server/server
+node NODE_ENV=production babel-node --stage 0 server/server
+rethinkdb
+rethinkdb
+ls
+cd ../..
+ls
+cd mokera/
+rethinkdb restore 20150701.tar.gz 
+$ sudo pip install rethinkdb
+$pip install rethinkdb
+pip install rethinkdb
+sudo pip install rethinkdb
+sudo pip install rethinkdb
+ls
+rethinkdb restore 20150701.tar.gz 
+cd
+ls
+cd workspace/mokera/
+ls
+rethinkdb restore 20150701.tar.gz 
+rethinkdb restore 20150701.tar.gz 
+go get golang.org/x/tools/cmd/goimports
+cd ~/Library/Application\ Support/
+ls
+rm Sublime\ Text\ 2/
+rm -r Sublime\ Text\ 2/
+go import
+goimports
+echo $GOPATH
+cd $GOPATH
+ls
+cd $PATH
+echo $PATH
+gofmt
+gofmt --help
+vi ~/.bash_profile
+source ~/.bash_profile
+goimports
+echo $PATH
+vi ~/.bash_profile
+source ~/.bash_profile
+goimports
+cd
+cd workspace/mokera/
+ls
+cd dashboard/
+npm run dev
+npm run dev
+rethinkdb
+ls
+cd dashboard/
+ls
+ls config
+cd config/
+cp config.js.example config.js
+ls
+ls
+cd workspace/go/src/gitlab.mokera.io/api/
+ls
+cd pipe.git/
+ls
+ls -a
+git pull
+sudo shutdown now
+sudo shutdown - now
+sudo shutdown -h now
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir -p web/facebook
+cd web/facebook/
+ls
+cd ..
+mv facebook facebook.git
+ls
+cd facebook.git/
+ls
+echo 'package main
+
+import (
+    "fmt"
+    fb "github.com/huandu/facebook"
+)
+
+func main() {
+    res, _ := fb.Get("/538744468", fb.Params{
+        "fields": "first_name",
+        "access_token": "a-valid-access-token",
+    })
+    fmt.Println("here is my facebook first name:", res["first_name"])
+}' > main.go
+ls
+go run main.go 
+go get github.com/huandu/facebook
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+go run main.go 
+cd workspace/
+ls
+cd test/
+ls
+echo '<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1440088516227948";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>' > testfb.html
+vi testfb.html 
+vi testfb.html 
+vi testfb.html 
+vi testfb.html 
+ls
+cd workspace/go/ls
+cd workspace/go/
+ls
+cd src/gitlab.mokera.io/
+ls
+cd api
+cd pipe.git/
+git status
+git branch
+git pull
+git brach
+git branch
+git log
+git checkout develop
+git log
+cd ..
+go get gitlab.mokera.io/api/sunday.git
+cd sunday.git/
+ls
+go get github.com/mokera/piece/factory
+vim
+vim
+cd 
+cd workspace/go/src/gitlab.mokera.io/web/facebook.git/
+go run main.go 
+mv main.go facebook-serve/main.go
+echo $GOROOT
+echo $GOPATH
+cat ~/.bash_profile
+cd ..
+cd ..
+ls
+cd api/pipe.git/
+ls
+git branch -a
+git checkout -b rearchitecting
+git branch -a
+git checkout -b master
+git checkout master
+git branch -a
+brew install git-flow
+brew install git-flow
+git flow feature
+git flow init
+git flow feature
+git branch
+git branch -d rearchitecting
+git branch -D rearchitecting
+git branch
+git branch -a
+git branch -h
+for remote in `git branch -r`; do git branch --track $remote; done
+for remote in `git branch -r`; do git branch --track $remote; done
+for remote in `git branch -r`; do git branch --track $remote; done
+git fetch --all
+git pull --al
+git pull --all
+git branch
+git branch -r
+git branch -a
+git branch -r
+git checkout orgin/rearchitecting
+git checkout origin/rearchitecting
+git checkout origin/feature/rearchitecting
+git branch
+git checkout origin/develop
+git branch
+brew tap homebrew/science
+brew update && brew upgrade
+brew install octave
+brew install octave
+ls
+cd Documents/
+cd Coursera/Machine\ learning/
+ls
+cd ..
+mv Machine\ learning/ MachineLearning
+cd MachineLearning/
+ls
+cd machine-learning-ex1/
+ls
+ls -a
+cd ex1
+ls
+vi ex1.m
+octave ex1.m 
+vi plotData.m 
+vi computeCost
+ls
+vi computeCost.m 
+vi computeCost.m 
+vi ex1.m
+vi ex1.m
+vi computeCost.m
+vi computeCost.m
+vi computeCost.m
+vi computeCost.m
+vi ex1.m
+ls
+vim ex1.m
+#em la ai
+#em la ai
+em la ai
+cd ~/workspace/ntu/fyp/
+ls
+mv Cuda/ cuda
+ls
+cd cuda/
+ls
+cd MatrixMultiplicationCode/
+ls
+make
+ls
+./multNoShare 
+make
+rm multNoShare
+make
+make all
+ls
+./multShare 
+echo $PATH
+cd /Developer/NVIDIA/CUDA-7.0/bin
+ls
+cd ~
+ls
+find / -n "NVIDIA_CUDA-7.0_Samples"
+find / -name "NVIDIA_CUDA-7.0_Samples"
+sudo find / -name "NVIDIA_CUDA-7.0_Samples"
+sudo find / -name "Samples"
+sudo find / -name "*Samples*"
+cd /Developer/NVIDIA/
+ls
+cd CUDA-7.0/
+ls
+cd samples/
+ls
+cd bin
+ls
+cd x86_64/
+ls
+cd darwin/release/
+ls
+./deviceQuery
+sudo find / -name ".DS_Store" -depth -exec rm {} \;
+ls
+cd ~/workspace/ntu/fyp/cuda/MatrixMultiplicationCode/
+ls
+vi multNoShare.c
+vi ex1.m
+octave ex1.m 
+vi plotData.m 
+vi computeCost
+ls
+vi computeCost.m 
+vi computeCost.m 
+vi ex1.m
+vi ex1.m
+vi computeCost.m
+vi computeCost.m
+vi computeCost.m
+vi computeCost.m
+vi ex1.m
+cd ~/workspace/ntu/fyp/cuda/
+ls
+cd MatrixMultiplicationCode/
+ls
+cat multSahre.h
+cat multShare.h
+ls
+cat multShare.c
+vi multShare.c
+make multShare
+./multShare
+vi multShare.c
+echo 'set tabstop=4
+set shiftwidth=4
+set expandtab
+' > ~/.vimrc
+cat ~/.vim
+cat ~/.vimrc
+ls
+vim multShare.c
+bg
+fg
+./multNoShare 1000 1000 1000
+./multNoShare 10000 10000 10000
+./multNoShare 2000 2000 2000
+./multNoShare 3000 3000 3000
+./multNoShare 4000 4000 4000
+./multShare 4000 4000 4000
+./multShare 5000 5000 5000
+./multShare 5000 5000 10000
+./multShare 5000 10000 10000
+w3m http://en.wikipedia.org/wiki/Vi -dump
+curl www.google.com
+curl www.google.com -dump
+curl www.google.com -dump
+curl http://stackoverflow.com/questions/14419573/how-would-you-get-a-webpage-source-from-terminal -dump
+ls
+vim Makefile 
+make all
+make
+make clean
+make clean .
+make clean all
+make all clean
+rm multNoShare
+rm multShare
+make all
+rm mult*Share
+ls
+echo $EDITOR
+
+em la ai ha em
+em la ai ha em
+em la ai ha em
+$l;adjsf;ladjsf;lafjsd;ldsem la ai ha em
+cd /var
+ls
+cd tmp
+ls
+vi ~/.bash_profile
+em la ai 
+em la ai 
+source ~/.bash_profile
+em la ia ha em 
+em la ia ha em vai ca dai 
+cd 
+cd ~/workspace 
+cd 
+cd 
+cd ~/workspace 
+dig +short txt really.wp.dg.cx
+ls
+dig +short txt unix.wp.dg.cx
+cd em la ai ha em
+cd anh la ai ha em
+cd em la ai ha em
+cd anh la ai ha anh
+cd em la ai ha em
+cd anh la ai ha em
+ls
+vi multNoShare.c
+make all
+time mulShare 100 100 100
+time ./mulShare 100 100 100
+time multShare 100 100 100
+time ./multShare 100 100 100
+time ./multShare 1000 1000 1000
+time ./multNoShare 1000 1000 1000
+time ./multNoShare 3000 3000 3000
+time ./multShare 3000 3000 3000
+time ./multNoShare 3000 3000 3000
+time ./multShare 3000 3000 3000
+cat Makefile 
+time ./multShare 8000 8000 8000
+cat multShare.c
+time ./multShare 8000 8000 8000
+time ./multShare 5000 5000 5000
+time ./multShare 5000 5000 5000
+vi multShare.c
+make multShare
+vi multShare.c
+cd 
+ls
+cd /Developer/
+ls
+cd NVIDIA/CUDA-7.0/samples/bin/x86_64/darwin/release/
+ls
+./deviceQuery
+ps
+ps aux
+ps aux | need
+ps aux | grep need
+ps aux | grep nfs
+ps aux | grep most
+ps aux | grep NFS
+ps -aux | grep NFS
+ps -au | grep NFS
+ps aux | grep NFS
+ps aux | grep speed
+ps aux | grep most
+$((${PORT:-5000} + 1))
+$PORT=3
+PORT=3
+$((${PORT:-5000} + 1))
+echo --port ${PORT:-5000} --progress & PORT=$((${PORT:-5000} + 1))
+echo $POST
+echo $PORT
+PORT=
+echo --port ${PORT:-5000} --progress & PORT=$((${PORT:-5000} + 1))
+echo 
+ls
+cd
+ls
+cd workspace/
+ls
+cd ntu/
+ls
+cd fyp/
+ls
+cd cuda/
+ls
+find / -name "query"
+find ~ -name "deviceQuery"
+cat ~/.bash_profile
+cd /Developer/NVIDIA/CUDA-7.0/
+ls
+cd samples/bin/x86_64/darwin/release/
+ls
+ls | grep "device"
+find / -name "deviceQuery"
+sudo find / -name "deviceQuery"
+/Developer/NVIDIA/CUDA-7.0/samples/bin/x86_64/darwin/release/deviceQuery
+ls
+ls -1
+ls -1 | wc l
+ls -1 | wc -l
+ls | wc -w
+touch em\ la\ ai.txt
+ls | grep em
+ls -w
+ls | wc -w
+ls -1 | wc -l
+rm em\ la\ ai.txt 
+bash --version
+zsh --version
+chsh -s /bin/zsh
+vim ~/.vimrc
+zsh
+exit
+vim
+zsh
+timux
+tmux
+TERM=screen-256color-bce tmux
+vim
+vim
+vim --version
+cat ~/.zshrc 
+/Applications/MacVim.app/Contents/MacOS/Vim
+vim
+exit
+vim ~/.tmux.conf 
+exit
+ps auxf
