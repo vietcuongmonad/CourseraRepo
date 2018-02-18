@@ -1,3 +1,14 @@
-let res=$#\*$1
-echo $res
+let kq=0 
+output=""
 
+for i in Sun Mon Tue Wed Thu Fri Sat
+do
+	tg=$(git log | grep $i | wc -l)
+	if [[ $kq -lt $tg ]]
+	then
+		kq=tg
+		output=$i
+	fi
+done
+
+echo $output
