@@ -1271,7 +1271,8 @@ eval echo {$start..$end}
 You can combine sequences with a comma between brackets (`{,}`):
 
 
-```bash
+```
+bash
 echo {{1..3},{a..c}}
 ```
 
