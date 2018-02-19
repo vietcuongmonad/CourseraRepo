@@ -1272,11 +1272,6 @@ You can combine sequences with a comma between brackets (`{,}`):
 
 
 ```
-bash
-echo {{1..3},{a..c}}
-```
-
-```
 ## 1 2 3 a b c
 ```
 
